@@ -1,0 +1,13 @@
+<template>
+    <p>This is my first LWC component</p>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="First name" onchange={setfirstname} ></lightning-input>
+    </div>
+    <div>
+        <lightning-button variant="brand" label="show" title="show" onclick={handleClick}></lightning-button>
+
+    </div>   
+    <template if:true={showfirstname}>
+    First Name : {firstname}
+    </template>
+</template>
