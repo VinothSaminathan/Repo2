@@ -34,7 +34,11 @@
     </types>
     <types>
         <members>*</members>
-        <name>CustomObject</name>
+<<<<<<< HEAD
+        <name>Customobject</name>
+=======
+        <name>Customobject</name>
+>>>>>>> Repo-1/main
     </types>
     <version>55.0</version>
 </Package>
