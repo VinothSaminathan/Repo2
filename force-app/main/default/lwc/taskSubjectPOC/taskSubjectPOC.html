@@ -1,0 +1,55 @@
+<template>
+    <lightning-card>
+        <!-- Opportunity -->
+        <!-- Display -->
+        <div class="slds-p-bottom_large slds-p-left_large">
+            <br />
+            <!-- Fields -->
+            <lightning-accordion active-section-name="A">
+                <lightning-accordion-section name="A" label="Task Details">
+                    <div class="slds-grid" style="color:rgb(15, 15, 15); font-size:13px">
+                        <div class="slds-col slds-size_1-of-2">
+                            <div class=" acc slds-list_horizontal slds-border_bottom">
+                                <label>Subject</label>
+                                {subject}
+                            </div>
+                            <div class=" acc slds-list_horizontal slds-border_bottom">
+                                <label>Status</label>
+                                {status}
+                            </div>
+                            <div class=" acc slds-list_horizontal slds-border_bottom">
+                                <label>Related To Account</label>
+                                {relatedtoaccount}
+                            </div>
+                            <div class="acc slds-border_bottom slds-list_horizontal">
+                                <label>Priority</label>
+                                {priority}
+                            </div>
+                            <div class="formfield slds-list_horizontal slds-border_bottom">
+                                <label>Assigned To</label>
+                                <div class="a11">{assignedto}</div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-size_2-of-2">
+                            <div class="slds-col slds-size_1-of-2">
+                                <div class="formfield slds-border_bottom slds-list_horizontal">
+                                    <label>Due Date</label>
+                                    {duedate}
+                                </div>
+                                <div class="formfield slds-border_bottom slds-list_horizontal">
+                                    <label>Type</label>
+                                    {type}
+                                </div>
+                                <div class="formfield slds-border_bottom slds-list_horizontal">
+                                    <label>Comments</label>
+                                    {comments}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </lightning-accordion-section>
+            </lightning-accordion>
+        </div>
+        <br />
+    </lightning-card>
+</template>
